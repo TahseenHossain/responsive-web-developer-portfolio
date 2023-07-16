@@ -1,0 +1,410 @@
+/*common shared styles*/
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*nav related*/
+nav{
+    display: flex;
+}
+
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 18px 25px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;   
+}
+
+nav> ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+
+/*header*/
+
+.banner .profile-pic{
+    width: 584px;
+    height: 576px;
+    flex-shrink: 0;
+    padding-left: 150px;
+}
+
+.header{
+    background-color: #FFF8F3;
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner{
+    padding: 5px 30px 0px 230px;
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+}
+
+.pick{
+    padding: 30px 70px 20px 20px;
+}
+
+.banner-1{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+.banner-2{
+    color: #181818;
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.profile-pic{
+    width: 584px;
+    height: 576px;
+    align-items: bottom;
+    
+}
+
+.banner-3{
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 250;
+    line-height: 30px;
+    max-width: 585px;
+    max-height: 60px;
+    padding-bottom: 49px;
+}
+
+.banner-content{
+    max-width: 500px;
+}
+
+.pic{
+    padding: 0px 0px 20px 17px;
+}
+/*main*/
+main{
+    max-width: 1140px;
+    margin: 130px auto;
+}
+.about{
+    padding: 130px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.my-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-type{
+    text-align: center;
+}
+
+.info{
+    display: flex;
+    text-align: center;
+}
+
+.i-do{
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.i-do-info{
+    padding-bottom: 30px 150px;
+}
+
+.i-do-block{
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.skills-block{
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    margin: 0px 230px 130px 230px;
+    
+}
+
+.skills{
+    padding: 40px;
+    height: 450px;
+    width: 350px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin: 0px 10px 20px 0px;
+
+}
+
+.skill-dis{
+    color:  #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;   
+    row-gap: 30px;
+}
+
+.skill-name{
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*resume*/
+.resume-title{
+    text-align: center;
+    color: #181818;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.heading-table{
+    display: flex;
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700px;
+    text-align: center;
+}
+
+.resume{
+    display: flex;
+    padding: 10px 230px 10px 230px;
+    gap: 30px;
+}
+
+.heading-table{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 230;
+    text-align: left;
+
+}
+
+.resume-org{
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.resume-time{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.resume-detail{
+    color: #757575;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.download{
+    text-align: center;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    padding: 130px 200px;
+    background: #FFF8F3;
+    margin-top: 100px;
+    gap: 100px
+}
+
+.footer-mess{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.footer-para{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    gap: 100px;
+}
+
+.footer-col{
+    width: 50%;
+}
+
+.contact input, textarea{
+    display: block;
+
+}
+
+.inp{
+    border-radius: 5px;
+    background: #FFF;
+    color:  #757575;
+    width: 461px;
+    height: 64px;
+    flex-shrink: 0;
+    margin-bottom: 24px;
+}
+
+.are{
+    border-radius: 5px;
+    background: #FFF;
+    color:  #757575;
+    width: 461px;
+    height: 180px;
+    flex-shrink: 0;
+    width: 461px;
+    height: 180px;
+    margin-bottom: 24px;
+}
+
+#submit{
+    border-radius: 5px;
+    background: #FD6E0A;
+    width: 150px;
+    height: 64px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.social a{
+    margin-right: 25px;
+}
+
+
+
+@media screen  and (max-width:576px){
+    .header{
+        background-image: none;
+        
+    }
+
+    .banner{
+        flex-direction: column-reverse;
+    }
+
+    .resume, .footer{
+        padding: 2px;
+    }
+
+    nav, nav > ul, .info-container,.header,.about,skills,.skills-block, .resume, footer{
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .banner .profile-pic {
+        width: 100%;
+        padding: 0px;
+        justify-content: left;
+    }
+
+    .btn-primary{
+        margin-top: 5px;
+        width: 400px;
+        height: 60px;
+        justify-content: center;
+    }
+
+    .about,.banner,.heading-table, footer{
+        margin: 5px;
+        padding: 5px;
+        justify-content: center;
+    }
+
+    .skills-block{
+        margin: 5px;
+        padding: 75px;
+        justify-content: center;
+    }
+
+    .my-description, .info-container{
+        font-size: 24px;
+    }
+
+    .footer-mess{
+        font-size: 35px;
+        font-weight: 400px;
+    }
+
+    .body{
+        overflow: hidden;
+    }
+
+
+    
+}
