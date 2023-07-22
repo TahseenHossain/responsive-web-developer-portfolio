@@ -72,7 +72,7 @@ nav a{
 
 .header{
     background-color: #FFF8F3;
-    background-image: url('/images/header_bg.png');
+    background-image: url('header_bg.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -389,7 +389,6 @@ footer{
     .skills-block{
         margin: 5px;
         padding: 75px;
-        justify-content: center;
     }
 
     .my-description, .info-container{
